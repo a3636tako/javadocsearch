@@ -1,0 +1,83 @@
+body{
+	margin : 0;
+	padding : 0;
+}
+#o_header{
+	background-color : #EEEEEE;
+	border-bottom : solid 2px #CCCCCC;
+}
+
+#o_header #o_form{
+	height : 35px;
+	width : 800px;
+}
+
+#o_header h1{
+	margin : 0;
+	height : 35px;
+	width : 250px;
+	float : left;
+}
+
+#o_header .class{
+	float : left;
+	height : 35px;
+	width : 300px;
+	line-height : 35px;
+} 
+
+#o_header .class .classtitle{
+	float : left;
+} 
+
+#o_header .class .suggestbox{
+	float : left;
+	margin : 7px;
+} 
+
+#o_text {
+	display : block;
+	width: 200px;
+	margin : 0px;
+}
+
+#o_suggest {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCFF;
+    font-size: 90%;
+    width: 200px;
+}
+#o_suggest div {
+    display: block;
+    width: 200px;
+	height : 25px;
+	line-height : 25px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#o_suggest div.select{ /* キー上下で選択した場合のスタイル */
+    color: #FFFFFF;
+    background-color: #3366FF;
+}
+#o_suggest div.over{ /* マウスオーバ時のスタイル */
+    background-color: #99CCFF;
+}
+
+#o_header .url{
+	float : left;
+	height : 35px;
+	width : 250px;
+	line-height : 35px;
+}
+
+#o_header .url select{
+	width : 150px;
+}
+
+#o_iframe{
+
+	border : none;
+	width : 100%;
+}
